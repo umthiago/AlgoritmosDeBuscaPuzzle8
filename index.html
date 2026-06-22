@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle 8</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Puzzle 8 Resultado</h1>
+
+    <select id="algoritmo">
+        <option value="astar">A*</option>
+        <option value="greedy">Melhor Primeiro</option>
+    </select>
+
+    <div id="tabuleiro"></div>
+
+    <div class="botoes">
+
+        <button onclick="customState()">Custom State</button>
+        <button onclick="embaralhar()">Embaralhar</button>
+        <button onclick="resolver()">Resolver</button>
+
+    </div>
+
+    <div class="info">
+
+        <p>Tempo: <span id="tempo">-</span></p>
+        <p>Custo: <span id="custo">-</span></p>
+        <p>Visitados: <span id="visitados">-</span></p>
+
+    </div>
+
+    <pre id="resultado"></pre>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

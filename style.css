@@ -1,0 +1,32 @@
+body{
+    font-family: Arial;
+    text-align:center;
+    background:#f0f2f5;
+}
+
+.container{
+    margin-top:40px;
+}
+
+#tabuleiro{
+    display:grid;
+    grid-template-columns:repeat(3,80px);
+    gap:5px;
+    justify-content:center;
+    margin:20px;
+}
+
+.tile, .vazio{
+    width:80px;
+    height:80px;
+    font-size:25px;
+}
+
+.tile{
+    background:#2196f3;
+    color:white;
+}
+
+.vazio{
+    background:#ddd;
+}
