@@ -1,1 +1,0 @@
-se ele digitar qualquer outra coisa letras, passar do limite de numeros, ou nao colocar exatamente 8 numeros, precisa dar errado, e outro detalhe eu consigo gerar um custom estate apenas com numeros 1, colocando 11111111, e isso nao pode dar certo
