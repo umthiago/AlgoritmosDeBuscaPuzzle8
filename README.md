@@ -13,4 +13,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
    cd seu-repositorio
 
 2. **Configurar Ambiente Virtal:**
-   
+   ```bash
+   python -m pip install -r requirements.txt
+   python -m uvicorn app:app --reload
